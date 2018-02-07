@@ -91,7 +91,7 @@ module.exports = {
       "react-native": "react-native-web",
       "../../theme.config$": path.join(
         __dirname,
-        "../my-semantic-theme/theme.config"
+        "../src/my-semantic-theme/theme.config"
       )
     },
     plugins: [
