@@ -20,6 +20,7 @@ class App extends Component {
         <Dropdown
           placeholder="Midwest States"
           selection
+          selectOnBlur={false}
           options={stateOptions}
         />
       </div>

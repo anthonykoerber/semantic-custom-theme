@@ -133,10 +133,10 @@ module.exports = {
         oneOf: [
           // this handles .less translation
           {
+            test: /\.less$/,
             use: ExtractTextPlugin.extract({
               use: ["css-loader", "less-loader"]
-            }),
-            test: /\.less$/
+            })
           },
           {
             test: /\.jpe?g$|\.gif$|\.png$|\.ttf$|\.eot$|\.svg$/,
