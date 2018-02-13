@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Button, Dropdown } from "semantic-ui-react";
+import { Button, Dropdown, Container, Header, Icon } from "semantic-ui-react";
 
 import "semantic-ui-less/semantic.less";
+import "./index.css";
 
 const stateOptions = [
   { key: "IL", value: "IL", text: "Illinois" },
@@ -15,7 +16,8 @@ const stateOptions = [
 class App extends Component {
   render() {
     return (
-      <div>
+      <Container>
+        <Header>Some Page Header Here!</Header>
         <Button>Hello There</Button>
         <Dropdown
           placeholder="Midwest States"
@@ -23,7 +25,14 @@ class App extends Component {
           selectOnBlur={false}
           options={stateOptions}
         />
-      </div>
+        <p>Some Page font here so I can see it</p>
+        {/* <Icon name="search" /> */}
+        <Icon className="home" />
+        <Icon className="pen" />
+        <Icon className="image" />
+        <Icon className="camera" />
+        <Icon className="spades" />
+      </Container>
     );
   }
 }
