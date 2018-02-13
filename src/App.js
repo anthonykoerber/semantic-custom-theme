@@ -26,12 +26,35 @@ class App extends Component {
           options={stateOptions}
         />
         <p>Some Page font here so I can see it</p>
-        {/* <Icon name="search" /> */}
         <Icon className="home" />
         <Icon className="pen" />
         <Icon className="image" />
         <Icon className="camera" />
         <Icon className="spades" />
+        <div>
+          <Button
+            content="Like"
+            icon={{ className: "heart" }}
+            label={{ as: "a", basic: true, content: "2,048" }}
+            labelPosition="right"
+          />
+          <Button
+            content="Like"
+            icon={{ className: "heart" }}
+            label={{
+              as: "a",
+              basic: true,
+              pointing: "right",
+              content: "2,048"
+            }}
+            labelPosition="left"
+          />
+          <Button
+            icon={{ className: "newspaper" }}
+            label={{ as: "a", basic: true, content: "2,048" }}
+            labelPosition="left"
+          />
+        </div>
       </Container>
     );
   }
