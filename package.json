@@ -25,6 +25,10 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
     "fs-extra": "3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^9.1.0",
+    "gulp-rename": "^1.2.2",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "less": "^2.7.3",
@@ -97,11 +101,11 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/react": "^3.3.12",
     "find-in-files": "^0.4.0",
     "ncp": "^2.0.0",
-    "semantic-ui-less": "^2.2.14",
-    "@storybook/react": "^3.3.12",
-    "@storybook/addon-actions": "^3.3.12",
-    "@storybook/addon-links": "^3.3.12"
+    "semantic-ui-less": "^2.2.14"
   }
 }
